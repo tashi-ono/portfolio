@@ -53,29 +53,29 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML/CSS Content | H | 3hr | -hr | -hr|
+| HTML/CSS Content | H | 2hr | -hr | -hr|
 | Mobile Pop-up Nav | H | 2hr | -hr | -hr|
-| Contact Icons | L | 4H | -hr | -hr|
-| Skills Flexbox | H | 3hr| -hr | -hr |
-| Portfolio Grid | H | 3hr | hr | -hr|
-| Contact Form | H | 5hrs| -hr | -hr |
-| Regular Nav Bar | H | 3.5hr | -hr | -hr|
+| Contact Icons | L | 1.5hr | -hr | -hr|
+| Skills Flexbox | H | 2hr| -hr | -hr |
+| Portfolio Grid | H | 4hr | hr | -hr|
+| Contact Form | H | 2hr| -hr | -hr |
+| Regular Nav Bar | H | 1hr | -hr | -hr|
 | Footer | M | 1hr | hr | -hr|
-| Homepage Buttons | L | 3hr | -hr | -hr|
+| Homepage Buttons | L | 2hr | -hr | -hr|
 | Responsive Porfolio Grid | H | 3hr | -hr | -hr|
-| API & Review | H | 3hr | -hr | -hr|
-| Total | H | 36.5hrs| -hrs | -hrs |
+| API & Research/Review | H | 4hr | -hr | -hr|
+| Bootstrap | H | 4hr | -hr | -hr|
+| Total | H | 30hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Bootstrap | H | 4hr | -hr | -hr|
 | Nav Button Hover | H | 2hr | -hr | -hr|
 | Make Own Icon | L | 2hr | -hr | -hr|
 | Slide Mobile Nav Window | M | 2hr | -hr | -hr|
 | Project Grid Hover | H | 2hr | -hr | -hr|
 | Animated Homepage Buttons | L | 3hr | -hr | -hr|
-| Total | H | 15hrs| -hrs | -hrs |
+| Total | H | 11hrs| -hrs | -hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
