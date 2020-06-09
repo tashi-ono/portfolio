@@ -1,0 +1,105 @@
+body {
+    background-color: #84966C;
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+}
+
+header {
+    background-color:#E0B8A3; 
+    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png"); 
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+   color: black;
+}
+
+.homepage-background {
+    width: 100%;
+}
+#homepage {
+    /* position: relative; */
+    
+}
+.word-container {
+    /* position: absolute;
+    top: 2em;
+    left: 20%; */
+    background-image: url(/portfolio-assets/macbook-forest.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 350px;
+    
+}
+    
+
+h1,h2,h3 {
+    font-family: fantasy;
+    text-align: center;
+    padding-top: 20px;
+    color: #F8F6EC;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.profile-pic-background {
+    display: block;
+    margin: 0 auto;
+    width: 8em;
+    border-radius: 100%;
+}
+
+#about {
+    padding: 20px;
+}
+
+.skills-icon {
+    display: flex;
+}
+
+ul.footer {
+    list-style: none;
+}
+.footer li {
+    float: right;
+    bottom: 0;
+}
+.small-icons img {
+    float: inline-end;
+    width: 44px;
+    
+  }
+
+  footer {
+      /* position: fixed; */
+      background-color: #F8F6EC;
+      background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+      padding-left: 1em;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      font-size: 0.75em;
+  }
+
+
+/* 
+  @media only screen and (max-width: 768px) {
+   nav a {
+        visibility: hidden;
+     }
+     
+
+ 
+} */

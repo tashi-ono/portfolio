@@ -9,7 +9,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches | Incomplete
@@ -17,6 +17,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 
 ## Project Description
+
+Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
 Personal portfolio website to showcase my projects from General Assembly.
 
@@ -26,7 +28,6 @@ Include link to your google sheet [here.](https://docs.google.com/spreadsheets/d
 
 ## Wireframes
 
-Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
 - [Mobile - Homepage](https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591634488/Portfolio%20Wireframes/20200608_093433_cyt9km.jpg)
 - [Mobile - Nav & About](https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591634682/Portfolio%20Wireframes/20200608_093457_cqygfx.jpg)
@@ -91,7 +92,7 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+- Overlaying header text on homepage background 
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
