@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
     <title>Natasha's Porfolio</title>
+
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- BOOTSTRAP JS FILES -->
@@ -131,6 +133,33 @@
 
       <section id="contact">
         <h3>Contact</h3>
+
+        <hr />
+        <div class="form">
+          <form
+            action="mailto:nfsana@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>Your Name:</label>
+            <input type="text" name="Name" placeholder="First and Last" /><br />
+            <label>Your Email:</label>
+            <input
+              type="email"
+              name="Email"
+              placeholder="email@address.com"
+            /><br />
+            <label>Your Message:</label><br />
+            <textarea
+              name="Your Message"
+              rows="10"
+              cols="30"
+              placeholder="Let's talk!"
+            ></textarea
+            ><br />
+            <input type="submit" />
+          </form>
+        </div>
       </section>
     </main>
 

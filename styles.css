@@ -1,6 +1,7 @@
 body {
     background-color: #84966C;
     background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+    width: 100vw;
 }
 
 
@@ -17,16 +18,13 @@ body {
 }
 
 .word-container {
-
     background-image: url('https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591716461/Portfolio%20Assets/macbook-forest_tyyghv.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
     height: 350px;
-    
 }
     
-
 h1,h2,h3 {
     font-family: fantasy;
     text-align: center;
@@ -42,8 +40,6 @@ h1 {
 h2 {
     font-size: 1.5em;
 }
-
-
 
 .profile-pic-background {
     display: block;
@@ -61,13 +57,17 @@ h2 {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    
-    
 }
+
 .skills-icon {
     display: flex;
     width: 6em;
     padding-bottom: 1em;
+}
+
+.form {
+    display: block;
+    text-align: center;
 }
 
 ul.footer {
