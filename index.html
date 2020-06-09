@@ -1,94 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Natasha's Porfolio</title>
-  <!-- JQUERY -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- BOOTSTRAP JS FILES -->
-  
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <!-- BOOTSTRAP STYLES -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <!--  MY OWN STYLES  -->
-  <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Natasha's Porfolio</title>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- BOOTSTRAP JS FILES -->
 
-</head>
-<body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP STYLES -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!--  MY OWN STYLES  -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <!-- <ul class="header">
-                <li><a href="#homepage">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul> -->
-            <div id="hidden-icons">
-                <a href="#homepage">Home</a>
-               <a href="#about">About</a>
-               <a href="#skills">Skills</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#contact">Contact</a>
-            </div>
-            <a href=""><img src="/portfolio-assets/hamburger-icon.png" alt="hamburger-icon"></a>
-        
-        </nav>
+      <!-- USING BOOTSTRAP -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Natasha S. Coen</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#homepage"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
+      <section id="homepage">
+        <!-- <img class="homepage-background" src="/seir_526_portfolio_project/portfolio-assets/macbook-forest.jpg" alt="macbook in the forest"> -->
+        <div class="word-container">
+          <h1>Natasha S. Coen</h1>
+          <h2>Software Engineer</h2>
+        </div>
+      </section>
 
-        <section id="homepage">
+      <section id="about">
+        <img
+          class="profile-pic-background"
+          src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591716510/Portfolio%20Assets/photo-shoot1_lwculv.jpg"
+          alt="Natasha's Profile Pic"
+        />
+        <h3>About Me</h3>
+        <p>
+          I am a software engineer student that loves to hone her craft by
+          creating user-friendly applications. With Bootstrap and jQuery I can
+          make tools that improve team collaboration and streamline workflow
+          while keeping my designs clean and dry.
+        </p>
+      </section>
 
-            <!-- <img class="homepage-background" src="/portfolio-assets/macbook-forest.jpg" alt="macbook in the forest"> -->
-            <div class="word-container">
-                <h1>Hello World...</h1>
-                <h2>I am Natasha</h2>
-                <h2>a Software Engineer</h2>
-            </div>
-        </section>
-        
-        <section id="about">
-            <img class="profile-pic-background" src="/portfolio-assets/photo-shoot1.jpg" alt="Natasha's Profile Pic">
-            <h3>About Me</h3>
-            <p>I am a software engineer student that loves to hone her craft by creating user-friendly applications. With Bootstrap and jQuery I can make tools that improve team collaboration and streamline workflow while keeping my designs clean and dry. </p>
-        </section>
-       
-       
-       <section id="skills">    
+      <section id="skills">
         <h3>Skills</h3>
-        <div class="skills-icons"></div>
-       </section>
+        <div class="skills-icons-container">
+          <img
+            class="skills-icon"
+            src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591723212/Portfolio%20Assets/html5-icon_zwr1np.png"
+            alt="html5-icon"
+          />
+          <img
+            class="skills-icon"
+            src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591725328/Portfolio%20Assets/css3-icon_sfo2yp.png"
+            alt="css3-icon"
+          />
+          <img
+            class="skills-icon"
+            src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591723220/Portfolio%20Assets/javascript-icon_h2whyc.png"
+            alt="javascript-icon"
+          />
+          <img
+            class="skills-icon"
+            src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591723222/Portfolio%20Assets/jquery-icon_uzz3vx.png"
+            alt="jquery-icon"
+          />
+          <img
+            class="skills-icon"
+            src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591723343/Portfolio%20Assets/bootstrap-icon_faxprv.png"
+            alt="bootstrap-icon"
+          />
+        </div>
+      </section>
 
-        <section id="portfolio">
-            <h3>Porfolio</h3>
-        </section>
-       <section id="contact">
+      <section id="portfolio">
+        <h3>Portfolio</h3>
+      </section>
+
+      <section id="contact">
         <h3>Contact</h3>
-       </section>
-       
-            
-       
-
+      </section>
     </main>
-        
+
     <footer>
-        <ul class="footer">
-            <li class = "small-icons"><a href="https://www.linkedin.com/in/natasha-sana-a5503aa9/"><img src="/portfolio-assets/linkedin.png" alt="LinkedIn"/></a></li>
-            <li class = "small-icons"><a href="https://github.com/tashi-ono/"><img src="/portfolio-assets/github.png" alt="GitHub"/></a></li>
-            <li class = "small-icons"><a href="mailto:nfsana@gmail.com"><img src="/portfolio-assets/gmail.png" alt="Gmail"/></a></li>        
-          </ul> 
-        <p> &copy 2020 | Natasha S. Coen <br>Social media icons made by <a target="_blank" href="https://www.cleanpng.com/" title="CleanPNG">CleanPNG</a> <br> Menu icon made by <a target="_blank" href="https://icons8.com" title="Icons8">Icons8</a></p>
+      <ul class="footer">
+        <li class="small-icons">
+          <a href="https://www.linkedin.com/in/natasha-sana-a5503aa9/"
+            ><img
+              src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591716452/Portfolio%20Assets/linkedin_ajxbde.png"
+              alt="LinkedIn"
+          /></a>
+        </li>
+        <li class="small-icons">
+          <a href="https://github.com/tashi-ono/"
+            ><img
+              src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591716451/Portfolio%20Assets/github_z4hsjz.png"
+              alt="GitHub"
+          /></a>
+        </li>
+        <li class="small-icons">
+          <a href="mailto:nfsana@gmail.com"
+            ><img
+              src="https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591716452/Portfolio%20Assets/gmail_xlxco6.png"
+              alt="Gmail"
+          /></a>
+        </li>
+      </ul>
+      <p>
+        &copy 2020 | Natasha S. Coen <br />Social media icons made by
+        <a target="_blank" href="https://www.cleanpng.com/" title="CleanPNG"
+          >CleanPNG</a
+        >
+        <br />
+        Menu icon made by
+        <a target="_blank" href="https://icons8.com" title="Icons8">Icons8</a>
+      </p>
     </footer>
-    
 
-
-
-
-  <!-- OMY APP.JS -->
-  <script src="app.js"></script>
-</body>
+    <!-- OMY APP.JS -->
+    <script src="app.js"></script>
+  </body>
 </html>

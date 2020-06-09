@@ -3,34 +3,22 @@ body {
     background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
 }
 
-header {
-    background-color:#E0B8A3; 
-    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png"); 
+
+.bg-light{
+    background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+    /* background-color not working */
+    background-color:#9BB4BE;
+    font-family: fantasy;
 }
 
-
-header nav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-nav a {
-   color: black;
-}
 
 .homepage-background {
     width: 100%;
 }
-#homepage {
-    /* position: relative; */
-    
-}
+
 .word-container {
-    /* position: absolute;
-    top: 2em;
-    left: 20%; */
-    background-image: url(/portfolio-assets/macbook-forest.jpg);
+
+    background-image: url('https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591716461/Portfolio%20Assets/macbook-forest_tyyghv.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -42,17 +30,20 @@ nav a {
 h1,h2,h3 {
     font-family: fantasy;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     color: #F8F6EC;
 }
 
 h1 {
     font-size: 2em;
+    padding-top: 30px;
 }
 
 h2 {
     font-size: 1.5em;
 }
+
+
 
 .profile-pic-background {
     display: block;
@@ -65,8 +56,18 @@ h2 {
     padding: 20px;
 }
 
+.skills-icons-container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
 .skills-icon {
     display: flex;
+    width: 6em;
+    padding-bottom: 1em;
 }
 
 ul.footer {
@@ -94,12 +95,12 @@ ul.footer {
   }
 
 
-/* 
-  @media only screen and (max-width: 768px) {
-   nav a {
+
+  /* @media only screen and (max-width: 768px) {
+   #hidden-icons {
         visibility: hidden;
-     }
+     } */
      
 
  
-} */
+}
