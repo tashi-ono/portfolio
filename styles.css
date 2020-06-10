@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellota:wght@700&family=Montserrat:wght@400;600&display=swap");
 
 body {
   background-color: #84966c;
@@ -67,23 +67,19 @@ h3 {
 
 #about {
   text-align: center;
-
-  padding: 20px 50px;
+  padding: 20px 35px;
 }
 
 #about p {
   background-color: #eef1dc;
-  padding: 15px;
+  padding: 20px;
   border-radius: 10px 30px;
 }
 
 .skills-icons-container {
   display: flex;
-  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .skills-icon {

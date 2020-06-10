@@ -70,13 +70,17 @@ $(() => {
       // create h5 for project title
       let $projectTitle = $("<h5>")
         .text(project.title)
-        .css({ color: " #eef1dc", "font-family": "'Bellota', serif" });
+        .css({ color: "#eef1dc", "font-family": "'Bellota', serif" });
 
       // create p tag for description and add to portfolio grid
-      let $projectDesc = $("<p>").text(project.description);
+      let $projectDesc = $("<p>")
+        .text(project.description)
+        .css({ "font-weight": "600" });
 
       // create figcaption that will house project title and description
-      let $figcaption = $("<figcaption>").addClass("grid-item description");
+      let $figcaption = $("<figcaption>")
+        .addClass("grid-item description")
+        .css("padding", "15px");
 
       // append figcaption after anchor tag
       $figcaption.insertAfter($projectLink);
