@@ -49,31 +49,40 @@ $(() => {
   function addProjectsToDOM(projectsArr) {
     console.log("projectsArr to be added to DOM: ", projectsArr);
     projectsArr.forEach((project) => {
-      // create h5 tags with title of project and append to portfolio grid
-      let $projectTitle = $("<h5>").text(project.title).css({
-        color: "white",
-        "font-family": "sans-serif",
-      });
-      $(".portfolio-grid").append($projectTitle);
-
-      // create img tag
+      // create thumbnail by first creating an img tag
       let $projectImg = $("<img>").attr({
         src: project.image,
         alt: project.title,
+        // width: "300px",
+        // height: "300px",
+        // object-fit: "cover",
       });
 
-      // create anchor tag for codepen url
+      // then create an anchor tag that will wrap around img tag
       let $projectLink = $("<a>").attr({
         href: project.url,
         target: "_blank",
       });
 
-      // append image to anchor tag and add to portfolio grid
-      $projectLink.append($projectImg).appendTo(".portfolio-grid");
+      // append img to anchor tag and add to .thumbnail as a child
+      $projectLink.append($projectImg).appendTo(".thumbnail");
+
+      // create h5 for project title
+      let $projectTitle = $("<h5>")
+        .text(project.title)
+        .css({ color: " #eef1dc", "font-family": "'Bellota', serif" });
 
       // create p tag for description and add to portfolio grid
       let $projectDesc = $("<p>").text(project.description);
-      $(".portfolio-grid").append($projectDesc);
+
+      // create figcaption that will house project title and description
+      let $figcaption = $("<figcaption>").addClass("grid-item description");
+
+      // append figcaption after anchor tag
+      $figcaption.insertAfter($projectLink);
+      // append title and description to figcaption
+      $projectTitle.appendTo($figcaption);
+      $projectDesc.appendTo($figcaption);
     });
   }
 });
