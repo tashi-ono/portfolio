@@ -4,7 +4,6 @@ body {
   background-color: #84966c;
   background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
   width: 100wv;
-
   font-family: "Montserrat", serif;
 }
 
@@ -22,7 +21,7 @@ header {
   background-color: #eef1dc !important;
   /* background-color: rgba(238, 241, 220, 0.95) !important; */
   font-family: "Bellota", serif;
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 .homepage-background {
@@ -47,48 +46,60 @@ h3 {
 
 h1 {
   font-family: "Bellota", serif;
-  font-size: 2em;
+  font-size: 2.2rem;
   padding-top: 3.2em;
 }
 
 h2 {
   font-family: "Montserrat", serif;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 h3 {
+  font-size: 1.7rem;
   font-family: "Bellota", serif;
+  text-decoration: underline;
 }
 
 .profile-pic-background {
   display: block;
   margin: 0 auto;
   width: 8em;
+  /* width: 100vw; */
   border-radius: 100%;
   padding-top: 20px;
 }
 
 #about {
   text-align: center;
-  padding: 20px 35px;
+  padding: 20px 35px 50px 35px;
+}
+
+#about img {
+  padding-bottom: 20px;
 }
 
 #about p {
+  font-size: 1em;
   background-color: #eef1dc;
   padding: 20px;
   border-radius: 10px 30px;
+  width: 80vw;
+  display: inline-block;
 }
 
 .skills-icons-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  border-radius: 10px 30px;
 }
 
 .skills-icon {
   display: flex;
-  width: 6em;
-  padding-bottom: 1em;
+  width: 5rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .portfolio-grid {
@@ -96,13 +107,19 @@ h3 {
 }
 
 .title-description {
+  font-size: 0.5rem;
   display: inline-block;
 }
 
+.title-description p {
+  font-size: 1rem;
+  width: 300px;
+}
+
 .thumbnail img {
-  padding: 1em;
-  width: 15em;
-  height: 15em;
+  padding: 1rem;
+  width: 15rem;
+  height: 15rem;
   object-fit: cover;
   border-radius: 40px;
 }
@@ -110,15 +127,29 @@ h3 {
 #contact {
   margin: 0 auto;
   text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input {
+  min-height: 50px;
 }
 
 div.form {
   display: inline-block;
   text-align: center;
   background-color: #eef1dc;
-  width: 250px;
+  width: 300px;
   padding: 15px;
   border-radius: 10px 30px;
+}
+
+form {
+  max-width: 300px;
 }
 
 ul.footer {
@@ -136,7 +167,7 @@ footer {
   background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
   width: 100%;
   height: auto;
-  font-size: 0.75em;
+  font-size: 0.8rem;
 }
 
 footer p {
@@ -145,13 +176,39 @@ footer p {
 }
 
 @media only screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  #about img {
+    width: 200px;
+  }
+
   .portfolio-grid {
-    width: 80%;
+    width: 60vw;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 250px);
     grid-auto-rows: auto;
     justify-content: center;
+  }
+
+  .grid-item {
+  }
+
+  .portfolio-grid p {
+    font-size: 1rem;
+    padding: 10px;
   }
 
   .title-description {
@@ -165,17 +222,17 @@ footer p {
 }
 
 @media only screen and (min-width: 1024px) {
-  #about img {
+  /* #about img {
     width: 200px;
-  }
+  } */
 
   #about p {
-    max-width: 1300px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 
   .skills-icons-container {
-    max-width: 1300px;
+    max-width: 700px;
     margin: 0 auto;
   }
   /* 

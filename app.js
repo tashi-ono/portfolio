@@ -71,10 +71,9 @@ $(() => {
       $projectLink.append($projectImg).appendTo($figure);
 
       // create h5 for project title
-      let $projectTitle = $("<h5>").text(project.title).css({
+      let $projectTitle = $("<h4>").text(project.title).css({
         color: "#eef1dc",
         "font-family": "'Bellota', serif",
-        "text-decoration": "underline",
       });
 
       // create p tag for description
