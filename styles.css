@@ -3,13 +3,15 @@
 body {
   background-color: #84966c;
   background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
-  width: 100vw;
+  width: 100wv;
+
   font-family: "Montserrat", serif;
 }
 
 header {
   position: fixed;
   width: 100%;
+  top: 0;
   /* how to hide nav bar when scrolling down */
   /* makes sure that header is stacked on top of other elements as #1 */
   z-index: 1;
@@ -18,6 +20,7 @@ header {
 .bg-light {
   background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
   background-color: #eef1dc !important;
+  /* background-color: rgba(238, 241, 220, 0.95) !important; */
   font-family: "Bellota", serif;
   font-size: 1.2em;
 }
@@ -50,7 +53,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat", serif;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 h3 {
@@ -90,34 +93,19 @@ h3 {
 
 .portfolio-grid {
   text-align: center;
-  /* display: grid;
-  grid-template-columns: 2fr 3fr;
-  grid-template-rows: auto;
-  padding: 20px;
-  grid-template-areas: "thumbnail title-description"; */
 }
 
-/* .thumbnail {
-  grid-area: "thumbnail";
+.title-description {
+  display: inline-block;
 }
-
-.description {
-  grid-area: "title-description";
-} */
 
 .thumbnail img {
-  padding: 1.5em;
-  width: 20em;
-  /* min-width: 200px; */
+  padding: 1em;
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+  border-radius: 40px;
 }
-/* 
-.grid-item {
-  display: flex;
-  flex-basis: 2rem;
-  flex-direction: column;
-  align-items: center;
-  align-self: stretch;
-} */
 
 #contact {
   margin: 0 auto;
@@ -150,16 +138,47 @@ footer {
   height: auto;
   font-size: 0.75em;
 }
+
 footer p {
   margin: 0;
   padding: 15px;
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .portfolio-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "thumbnail"
-      "title-description";
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-auto-rows: auto;
+    justify-content: center;
   }
-} */
+
+  .title-description {
+    display: grid;
+  }
+
+  .grid-item h5 {
+    display: grid;
+    align-items: flex-end;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  #about img {
+    width: 200px;
+  }
+
+  #about p {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  .skills-icons-container {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  /* 
+  input[type="text-area"] {
+  } */
+}

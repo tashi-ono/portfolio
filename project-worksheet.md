@@ -8,9 +8,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 | Day   | Deliverable                                  | Status     |
 | ----- | -------------------------------------------- | ---------- |
-| Day 1 | Project Description                          | Incomplete |
+| Day 1 | Project Description                          | Complete   |
 | Day 1 | Wireframes / Priority Matrix / Timeline      | Complete   |
-| Day 3 | Core Application Structure (HTML, CSS, etc.) | Incomplete |
+| Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
 | Day 4 | MVP & Bug Fixes                              | Incomplete |
 | Day 5 | Final Touches                                | Incomplete |
 | Day 6 | Present                                      | Incomplete |
@@ -19,7 +19,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
 
-Personal portfolio website to showcase my projects from General Assembly.
+This is my personal portfolio website to showcase my skills and how I have applied them to projects from General Assembly.
+
+Skills:
+HTML5
+CSS3
+Javascript
+jQuery
+Bootstrap
 
 ## Google Sheet
 
@@ -80,12 +87,12 @@ Bootstrap was used for my navigation bar.
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description
+I am proud of the entire code block for addProjectsToDOM function because I had to write out how I was going to layer <figure> and <figcaption> with a bunch of other tags dynamically.
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+  function addProjectsToDOM(projectsArr) {
+
+ });
 ```
 
 ## Issues and Resolutions
@@ -93,6 +100,8 @@ function reverse(string) {
 - Overlaying header text on homepage background. I had to put my header text into a word container div and set it to relative position so that I could manipulate it on top of the header background photo.
 - I had an issue with my navigation bar disappearing after I tried to make the position fixed. I fixed this by making the z-index: 1, which told the header navbar that it is the first element that will be layered on top of other elements.
 - I had an issue with the Bootstrap nav not allowing me to change the background-color even though it allowed me to add background texture. I was able to bypass this by adding "!important" after my color hex code.
+- Having issue with clicking on a section under the hamburger icon and not having the navigation buttons scroll back up. This was resolved by simply using .collapse().
+- Now I am having an issue with my navbar being fixed to the top, so when it would take me to a section, it would cover that section's title.
 
 #### SAMPLE.....
 

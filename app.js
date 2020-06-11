@@ -53,9 +53,6 @@ $(() => {
       let $projectImg = $("<img>").attr({
         src: project.image,
         alt: project.title,
-        // width: "300px",
-        // height: "300px",
-        // object-fit: "cover",
       });
 
       // then create an anchor tag that will wrap around img tag
@@ -64,29 +61,42 @@ $(() => {
         target: "_blank",
       });
 
-      // append img to anchor tag and add to .thumbnail as a child
-      $projectLink.append($projectImg).appendTo(".thumbnail");
+      // finally create figure tag that will wrap around anchor tag
+      let $figure = $("<figure>").addClass("grid-item thumbnail");
+
+      // append figure tag to portfolio grid
+      $figure.appendTo(".portfolio-grid");
+
+      // nest img in anchor tag and append that into figure tag
+      $projectLink.append($projectImg).appendTo($figure);
 
       // create h5 for project title
-      let $projectTitle = $("<h5>")
-        .text(project.title)
-        .css({ color: "#eef1dc", "font-family": "'Bellota', serif" });
+      let $projectTitle = $("<h5>").text(project.title).css({
+        color: "#eef1dc",
+        "font-family": "'Bellota', serif",
+        "text-decoration": "underline",
+      });
 
-      // create p tag for description and add to portfolio grid
+      // create p tag for description
       let $projectDesc = $("<p>")
         .text(project.description)
         .css({ "font-weight": "600" });
 
       // create figcaption that will house project title and description
       let $figcaption = $("<figcaption>")
-        .addClass("grid-item description")
-        .css("padding", "15px");
+        .addClass("grid-item title-description")
+        .css({ color: "#E4DFD7", "text-align": "center" });
 
-      // append figcaption after anchor tag
-      $figcaption.insertAfter($projectLink);
+      // // append figcaption after figure
+      $figcaption.insertAfter($figure);
       // append title and description to figcaption
       $projectTitle.appendTo($figcaption);
       $projectDesc.appendTo($figcaption);
     });
   }
+
+  // upon clicking a link in the nav bar, hide the nav bar
+  $(".navbar-collapse a").on("click", () => {
+    $(".navbar-collapse").collapse("hide");
+  });
 });
