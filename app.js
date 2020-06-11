@@ -71,20 +71,15 @@ $(() => {
       $projectLink.append($projectImg).appendTo($figure);
 
       // create h5 for project title
-      let $projectTitle = $("<h4>").text(project.title).css({
-        color: "#eef1dc",
-        "font-family": "'Bellota', serif",
-      });
+      let $projectTitle = $("<h4>").text(project.title);
 
       // create p tag for description
-      let $projectDesc = $("<p>")
-        .text(project.description)
-        .css({ "font-weight": "600" });
+      let $projectDesc = $("<p>").text(project.description);
 
       // create figcaption that will house project title and description
-      let $figcaption = $("<figcaption>")
-        .addClass("grid-item title-description")
-        .css({ color: "#E4DFD7", "text-align": "center" });
+      let $figcaption = $("<figcaption>").addClass(
+        "grid-item title-description"
+      );
 
       // // append figcaption after figure
       $figcaption.insertAfter($figure);

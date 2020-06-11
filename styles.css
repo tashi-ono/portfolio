@@ -17,7 +17,8 @@ header {
 }
 
 .bg-light {
-  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
   background-color: #eef1dc !important;
   /* background-color: rgba(238, 241, 220, 0.95) !important; */
   font-family: "Bellota", serif;
@@ -28,7 +29,7 @@ header {
   width: 100%;
 }
 
-.word-container {
+.header-container {
   background-image: url("https://res.cloudinary.com/gaseir526-tashiono/image/upload/v1591716461/Portfolio%20Assets/macbook-forest_tyyghv.jpg");
   background-position: center;
   background-size: cover;
@@ -65,34 +66,41 @@ h3 {
   display: block;
   margin: 0 auto;
   width: 8em;
-  /* width: 100vw; */
   border-radius: 100%;
   padding-top: 20px;
 }
 
 #about {
   text-align: center;
-  padding: 20px 35px 50px 35px;
+  padding: 20px 35px 10px 35px;
 }
 
 #about img {
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
 #about p {
   font-size: 1em;
-  background-color: #eef1dc;
+  /* background-color: #eef1dc; */
+  background-color: #e2f6c3;
+  /* background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
+  margin-top: 20px;
   padding: 20px;
   border-radius: 10px 30px;
   width: 80vw;
   display: inline-block;
+}
+#skills {
+  padding-top: 70px;
 }
 
 .skills-icons-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  border-radius: 10px 30px;
+  padding: 20px;
 }
 
 .skills-icon {
@@ -100,20 +108,35 @@ h3 {
   width: 5rem;
   padding-top: 20px;
   padding-bottom: 10px;
+  justify-items: center;
+}
+#portfolio {
+  padding-top: 80px;
 }
 
 .portfolio-grid {
-  text-align: center;
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: 100%;
+  justify-items: center;
 }
 
 .title-description {
   font-size: 0.5rem;
   display: inline-block;
+  text-align: center;
+}
+
+.title-description h4 {
+  color: #fce5db;
+  font-family: "Montserrat", serif;
 }
 
 .title-description p {
+  color: #e4dfd7;
   font-size: 1rem;
   width: 300px;
+  font-weight: 600;
 }
 
 .thumbnail img {
@@ -127,7 +150,7 @@ h3 {
 #contact {
   margin: 0 auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px;
 }
 
@@ -139,10 +162,14 @@ input {
   min-height: 50px;
 }
 
-div.form {
+.form {
   display: inline-block;
   text-align: center;
-  background-color: #eef1dc;
+  /* background-color: #eef1dc; */
+  /* background-color: #e2f6c3; */
+  background-color: rgba(226, 246, 195, 0.5);
+  /* background-image: url("https://www.transparenttextures.com/patterns/checkered-pattern.png"); */
+  /* background-image: url("https://www.transparenttextures.com/patterns/candyhole.png"); */
   width: 300px;
   padding: 15px;
   border-radius: 10px 30px;
@@ -162,9 +189,16 @@ ul.footer {
   margin: 5px;
 }
 
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+}
+
 footer {
   background-color: #eef1dc;
-  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
   width: 100%;
   height: auto;
   font-size: 0.8rem;
@@ -194,48 +228,61 @@ footer p {
     width: 200px;
   }
 
-  .portfolio-grid {
-    width: 60vw;
+  #skills {
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 250px);
-    grid-auto-rows: auto;
-    justify-content: center;
+    width: 90vw;
+  }
+  .skills-icons-container {
+    margin-top: 20px;
+    margin-bottom: 80px;
   }
 
-  .grid-item {
+  .portfolio-grid {
+    padding: 50px;
+    width: 60vw;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, auto);
+    grid-auto-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thumbnail img {
+    width: 12rem;
   }
 
   .portfolio-grid p {
     font-size: 1rem;
     padding: 10px;
+    width: auto;
   }
 
   .title-description {
     display: grid;
+    justify-self: start;
+    text-align: left;
+  }
+  .form {
+    width: 70vw;
   }
 
-  .grid-item h5 {
-    display: grid;
-    align-items: flex-end;
+  form {
+    margin: 0 auto;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  /* #about img {
-    width: 200px;
-  } */
-
   #about p {
     max-width: 1100px;
-    margin: 0 auto;
   }
 
   .skills-icons-container {
-    max-width: 700px;
     margin: 0 auto;
+    max-width: 800px;
   }
-  /* 
-  input[type="text-area"] {
-  } */
+
+  .portfolio-grid {
+    width: 80vw;
+  }
 }
