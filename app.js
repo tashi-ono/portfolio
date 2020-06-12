@@ -93,4 +93,10 @@ $(() => {
   $(".navbar-collapse a").on("click", () => {
     $(".navbar-collapse").collapse("hide");
   });
+
+  // // I ran out of time, playing around with JS Timers
+  // let $quote1 = $($(".quote-1").children()[0]);
+  // // let $quote2 = $($(".quote-2").children()[0]);
+  // $quote1.fadeIn(5000).delay(2500).fadeOut(7000).delay(5000);
+  // // $quote2.fadeIn(1000).delay(2000).fadeOut(3000);
 });

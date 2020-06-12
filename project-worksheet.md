@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Day 1 | Project Description                          | Complete   |
 | Day 1 | Wireframes / Priority Matrix / Timeline      | Complete   |
 | Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
-| Day 4 | MVP & Bug Fixes                              | Incomplete |
-| Day 5 | Final Touches                                | Incomplete |
+| Day 4 | MVP & Bug Fixes                              | Complete   |
+| Day 5 | Final Touches                                | Complete   |
 | Day 6 | Present                                      | Incomplete |
 
 ## Project Description
@@ -51,32 +51,32 @@ Include link to your google sheet [here.](https://docs.google.com/spreadsheets/d
 
 #### MVP
 
-| Component                | Priority | Estimated Time | Time Invetsted | Actual Time |
-| ------------------------ | :------: | :------------: | :------------: | :---------: |
-| HTML/CSS Content         |    H     |      2hr       |      -hr       |     -hr     |
-| Mobile Pop-up Nav        |    H     |      2hr       |      -hr       |     -hr     |
-| Contact Icons            |    L     |     1.5hr      |      -hr       |     -hr     |
-| Skills Flexbox           |    H     |      2hr       |      -hr       |     -hr     |
-| Portfolio Grid           |    H     |      4hr       |       hr       |     -hr     |
-| Contact Form             |    H     |      2hr       |      -hr       |     -hr     |
-| Regular Nav Bar          |    H     |      1hr       |      -hr       |     -hr     |
-| Footer                   |    M     |      1hr       |       hr       |     -hr     |
-| Homepage Buttons         |    L     |      2hr       |      -hr       |     -hr     |
-| Responsive Porfolio Grid |    H     |      3hr       |      -hr       |     -hr     |
-| API & Research/Review    |    H     |      4hr       |      -hr       |     -hr     |
-| Bootstrap                |    H     |      4hr       |      -hr       |     -hr     |
-| Total                    |    H     |     30hrs      |      -hrs      |    -hrs     |
+| Component                | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------ | :------: | :------------: | :-----------: | :---------: |
+| HTML/CSS Content         |    H     |      2 hr      |     6 hr      |    8 hr     |
+| Mobile Pop-up Nav        |    H     |      2 hr      |     2 hr      |    1 hr     |
+| Contact Icons            |    L     |     1.5 hr     |     2 hr      |    1 hr     |
+| Skills Flexbox           |    H     |      2 hr      |     1 hr      |    1 hr     |
+| Portfolio Grid           |    H     |      4 hr      |     2 hr      |    5 hr     |
+| Contact Form             |    H     |      2 hr      |     2 hr      |   0.5 hr    |
+| Regular Nav Bar          |    H     |      1 hr      |     2 hr      |    2 hr     |
+| Footer                   |    M     |      1 hr      |     2 hr      |    1 hr     |
+| Homepage Buttons         |    L     |      2 hr      |     0 hr      |    0 hr     |
+| Responsive Porfolio Grid |    H     |      3 hr      |     3 hr      |    4 hr     |
+| API & Research/Review    |    H     |      4 hr      |     2 hr      |    2 hr     |
+| Bootstrap                |    H     |      4 hr      |     2 hr      |    1 hr     |
+| Total                    |    H     |     30 hrs     |    26 hrs     |  26.5 hrs   |
 
 #### PostMVP
 
-| Component                 | Priority | Estimated Time | Time Invetsted | Actual Time |
-| ------------------------- | :------: | :------------: | :------------: | :---------: |
-| Nav Button Hover          |    H     |      2hr       |      -hr       |     -hr     |
-| Make Own Icon             |    L     |      2hr       |      -hr       |     -hr     |
-| Slide Mobile Nav Window   |    M     |      2hr       |      -hr       |     -hr     |
-| Project Grid Hover        |    H     |      2hr       |      -hr       |     -hr     |
-| Animated Homepage Buttons |    L     |      3hr       |      -hr       |     -hr     |
-| Total                     |    H     |     11hrs      |      -hrs      |    -hrs     |
+| Component               | Priority | Estimated Time | Time Invested | Actual Time |
+| ----------------------- | :------: | :------------: | :-----------: | :---------: |
+| Nav Button Hover        |    H     |      2 hr      |     3 hr      |   0.5 hr    |
+| Make Own Icon           |    L     |      2 hr      |     0 hr      |    0 hr     |
+| Slide Mobile Nav Window |    M     |      2 hr      |     0 hr      |    0 hr     |
+| Project Grid Hover      |    H     |      2 hr      |     3 hr      |   3.5 hr    |
+| Javascript Timer Quotes |    L     |      3 hr      |     3 hr      |   2.5 hr    |
+| Total                   |    H     |     11 hrs     |     9 hrs     |   6.5 hrs   |
 
 ## Additional Libraries
 
