@@ -6,14 +6,14 @@ This schedule will be used to keep track of your progress throughout the week an
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
-| Day   | Deliverable                                  | Status     |
-| ----- | -------------------------------------------- | ---------- |
-| Day 1 | Project Description                          | Complete   |
-| Day 1 | Wireframes / Priority Matrix / Timeline      | Complete   |
-| Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
-| Day 4 | MVP & Bug Fixes                              | Complete   |
-| Day 5 | Final Touches                                | Complete   |
-| Day 6 | Present                                      | Incomplete |
+| Day   | Deliverable                                  | Status   |
+| ----- | -------------------------------------------- | -------- |
+| Day 1 | Project Description                          | Complete |
+| Day 1 | Wireframes / Priority Matrix / Timeline      | Complete |
+| Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete |
+| Day 4 | MVP & Bug Fixes                              | Complete |
+| Day 5 | Final Touches                                | Complete |
+| Day 6 | Present                                      | Complete |
 
 ## Project Description
 
@@ -81,11 +81,12 @@ Include link to your google sheet [here.](https://docs.google.com/spreadsheets/d
 ## Additional Libraries
 
 For languages:
-Bootstrap was used for my navigation bar.
+Bootstrap was used for my navigation bar. JQuery and JSON was used to dynamically add my projects from a Google Sheet.
 
 For design:
 I used TransparentTextures.com to enhance background colors.
 All icons were from Icon8.com and CleanPNG.com
+I also used FreeFrontend.com to get ideas for my button animation and overlays.
 
 ## Code Snippet
 
@@ -115,6 +116,12 @@ I am proud of the entire code block for addProjectsToDOM function because I had 
     }
 
 
+In contrast, I'm proud of is this tiny code snippet because I thought it was pretty impressive, despite being super simple.
+
+.skills-icon:hover {
+  transform: rotateY(360deg);
+  transition: 2s;
+}
 ```
 
 ## Issues and Resolutions
