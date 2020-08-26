@@ -218,15 +218,20 @@ h3 {
   padding-bottom: 50px;
 }
 
-label {
+#contact p {
+  color: white;
+  font-size: 1.4rem;
+}
+
+/* label {
   font-weight: bold;
   text-transform: uppercase;
 }
 input {
   min-height: 50px;
-}
+} */
 
-.form {
+/* .form {
   display: inline-block;
   text-align: center;
   background-color: rgba(226, 246, 195, 0.5);
@@ -234,27 +239,33 @@ input {
   padding: 15px;
   border-radius: 10px 30px;
   box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
-}
+} */
 
-form {
+/* form {
   max-width: 300px;
-}
+} */
 
-ul.footer {
+/* ul.footer {
   list-style: none;
-}
+} */
 
 .small-icons img {
-  float: right;
-  width: 44px;
+  /* float: right; */
+  width: 60px;
   margin: 5px;
 }
 
 .small-icons img:hover {
-  transform: scale(0.8) translateY(10px);
+  transform: scale(0.95) translateY(5px);
 }
 
-input[type="text"],
+.resume img {
+  width: 70px;
+  margin-top: 1px;
+  margin-right: 0px;
+}
+
+/* input[type="text"],
 input[type="email"],
 textarea {
   width: 95%;
@@ -274,7 +285,7 @@ input[type="submit"]:hover {
   transition: 500ms ease;
   background-color: #84966c;
   color: white;
-}
+} */
 
 footer {
   background-color: #eef1dc;
@@ -287,6 +298,7 @@ footer {
 footer p {
   margin: 0;
   padding: 15px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -404,10 +416,6 @@ footer p {
     max-width: 800px;
   }
 
-  .portfolio-grid {
-    /* width: 80vw; */
-  }
-
   .thumbnail img {
     width: 25rem;
   }
@@ -417,11 +425,3 @@ footer p {
     min-width: 400px;
   }
 }
-
-/* @media only screen and (min-width: 1280px) {
-  .portfolio-grid {
-  }
-  .title-description {
-    width: 400px;
-  }
-} */
