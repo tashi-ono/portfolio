@@ -110,6 +110,7 @@ h3 {
   border-radius: 10px 30px;
   width: 80vw;
   display: inline-block;
+  text-align: justify;
 }
 #skills {
   padding-top: 70px;
@@ -160,7 +161,7 @@ h3 {
 .title-description p {
   color: #e4dfd7;
   font-size: 1rem;
-  width: 300px;
+  min-width: 300px;
   font-weight: 600;
 }
 
@@ -201,6 +202,7 @@ input {
   width: 300px;
   padding: 15px;
   border-radius: 10px 30px;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
 }
 
 form {
@@ -225,8 +227,18 @@ input[type="text"],
 input[type="email"],
 textarea {
   width: 95%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 10px;
 }
-
+input[type="submit"] {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  padding: 10px;
+}
 input[type="submit"]:hover {
   transition: 500ms ease;
   background-color: #84966c;
@@ -246,7 +258,13 @@ footer p {
   padding: 15px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 600px) {
+  .title-description p {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
   html {
     font-size: 16px;
   }
@@ -286,15 +304,14 @@ footer p {
     padding: 50px;
     width: 60vw;
     margin: 0 auto;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(2, auto);
     grid-auto-rows: auto;
-    gap: 1rem;
     justify-content: center;
     align-items: center;
   }
 
   .thumbnail img {
-    width: 12rem;
+    /* width: 12rem; */
   }
 
   .portfolio-grid p {
@@ -307,6 +324,8 @@ footer p {
     display: grid;
     justify-self: start;
     text-align: left;
+    align-self: start;
+    margin-top: 40px;
   }
   .form {
     width: 70vw;
@@ -316,7 +335,11 @@ footer p {
     margin: 0 auto;
   }
 }
-
+@media only screen and (min-width: 768px) {
+  .title-description {
+    margin-left: 30px;
+  }
+}
 @media only screen and (min-width: 1024px) {
   /* .avatar-quotes-container div {
     display: inline-block;
@@ -351,10 +374,23 @@ footer p {
   }
 
   .portfolio-grid {
-    width: 80vw;
+    /* width: 80vw; */
   }
 
   .thumbnail img {
-    width: 15rem;
+    width: 25rem;
+  }
+
+  .title-description {
+    margin-top: 50px;
+    min-width: 400px;
   }
 }
+
+/* @media only screen and (min-width: 1280px) {
+  .portfolio-grid {
+  }
+  .title-description {
+    width: 400px;
+  }
+} */
