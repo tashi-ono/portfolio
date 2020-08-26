@@ -106,7 +106,7 @@ h3 {
   background-color: #e2f6c3;
   background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
   margin-top: 30px;
-  padding: 20px;
+  padding: 20px 30px 10px;
   border-radius: 10px 30px;
   width: 80vw;
   display: inline-block;
@@ -119,8 +119,12 @@ h3 {
 .skills-icons-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   padding: 20px;
+  background-color: #e2f6c3;
+  background-image: url("https://www.transparenttextures.com/patterns/candyhole.png");
+  border-radius: 10px 30px;
 }
 
 .skills-icon {
@@ -136,6 +140,27 @@ h3 {
   transition: 2s;
 }
 
+.netlify {
+  width: 150px;
+}
+
+.vscode {
+  width: 200px;
+}
+
+.atom {
+  width: 120px;
+  margin-right: 10px;
+}
+
+.adobexd {
+  width: 200px;
+}
+
+.postman {
+  width: 100px;
+}
+
 #portfolio {
   padding-top: 80px;
 }
@@ -145,6 +170,10 @@ h3 {
   display: grid;
   grid-template-columns: 100%;
   justify-items: center;
+}
+
+.portfolio-grid h4 {
+  font-weight: bold;
 }
 
 .title-description {
@@ -163,6 +192,8 @@ h3 {
   font-size: 1rem;
   min-width: 300px;
   font-weight: 600;
+  text-align: justify;
+  padding: 0 10px;
 }
 
 .thumbnail img {
