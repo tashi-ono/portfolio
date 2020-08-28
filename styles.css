@@ -216,11 +216,8 @@ h3 {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 50px;
-}
-
-#contact p {
   color: #e4dfd7;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding: 10px;
 }
 
@@ -249,7 +246,9 @@ input {
 /* ul.footer {
   list-style: none;
 } */
-
+#email {
+  font-size: 1rem;
+}
 .small-icons img {
   /* float: right; */
   width: 60px;
